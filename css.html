@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+            text-align: left;
+        }
+          
+        h1 {
+            color: black;
+            text-align: center;
+        }
+          
+        p {
+            color:red;
+            font-family: verdana;
+            font-size: 20px;
+        }
+        p.dotted {border-style: dotted;}
+        p.dashed {border-style: dashed;}
+        p.solid {border-style: solid;}
+        p.double {border-style: double;}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+        p.none {border-style: none;}
+        p.hidden {border-style: hidden;}
+        p.mix {border-style: dotted dashed solid double;}
+    </style>
+</head>
+<body>
+    <h1><strong>Cascading Style Sheets</strong></h1>
+    <br><hr>
+    <h1>TEXT:</h1>
+    <h2>Text Align:</h2>
+    <p style="text-align:left;background-color:aqua;">text-align:left</p>
+    <p style="text-align:right;background-color:aqua;">text-align:center</p>
+    <p style="text-align:center;background-color:aqua;">text-align:right</p>
+    <br><hr>
+    <h2>Text color:</h2>
+    <p style="color:blue;">color:blue;</p>
+    <p style="color:brown;">color:brown;</p>
+    <p style="color:blueviolet;">color:blueviolet;</p>
+    <br><hr>
+    <h2>Text Decorator:</h2>
+    <P style="text-decoration: overline;">text-decoration: overline;</P>
+    <p style="text-decoration: line-through;">text-decoration: line-through;</p>
+    <p style="text-decoration: underline;">text-decoration: underline;</p>
+    <P style="text-decoration: overline underline;">text-decoration: overline underline;</P>
+    <br><hr>
+    <h2>Text Transform:</h2>
+    <P style="text-transform: uppercase;">text-transform: uppercase;</P>
+    <P style="text-transform: lowercase;">text-transform: lowercase;</P>
+    <P style="text-transform: capitalize;">text-transform: capitalize;</P>
+    <br><hr>
+    <h2>Text Indentaion:</h2>
+    <p style="text-indent: 50px;">text-indent:50px;</p>
+    <h2>Letter spacing:</h2>
+    <p style=" letter-spacing: 5px;">letter-spacing: 5px;</p>
+    <P style="letter-spacing: -2px;">letter-spacing: -2px;</P>
+    <h2>Line hight:</h2>
+    <P style="line-height: 0.8;">line-height: 0.8;</P>
+    <P style="line-height: 1.8;">line-height: 1.8;</P>
+    <h2>Word spacing:</h2>
+    <P style="word-spacing: 10px;">word-spacing: 10px;</P>
+    <P style="word-spacing: -2px;">word-spacing: -2px;</P>
+    <h2>White spacing:</h2>
+    <P style="white-space: nowrap;">white-space: nowrap;</P>
+    <h2>Text shadows:</h2>
+    <P style="text-shadow: 2px 2px;">text-shadow: 2px 2px;</P>
+    <P style="text-shadow: 2px 2px blue;">text-shadow: 2px 2px blue;</P>
+    <hr><br>
+
+    <h1>BACKGROUND:</h1>
+    <h2>Background Color:</h2>
+    <p style="background-color:yellow;">background-color:yellow</p>
+    <p style="background-color:pink;">background-color:red</p>
+    <p style="background-color:blueviolet">background-color:blueviolet</p>
+    <br><hr>
+    <h2>Border Style:</h2>
+    <p class="dotted">A dotted border. border-style:dotted;</p>
+    <p class="dashed">A dashed border. border-style:dashed;</p>
+    <p class="solid">A solid border. border-style:solid;</p>
+    <p class="double">A double border. border-style:double;</p>
+    <p class="groove">A groove border. border-style:groove;</p>
+    <p class="ridge">A ridge border. border-style:ridge;</p>
+    <p class="inset">An inset border. border-style:ridge;</p>
+    <p class="outset">An outset border. border-style:outset;</p>
+    <p class="none">No border. border-style:none;</p>
+    <p class="hidden">A hidden border. border-style:hidden;</p>
+    <p class="mix">A mixed border. border-style:mix;</p>
+    <br><hr>
+    <h2>Border Width:</h2>
+    <p style="border-style: solid;border-width: 5px;">border-style: solid;border-width: 5px;</p>
+    <p style="border-style: solid;border-width: medium;">border-style: solid;border-width: medium;</p>
+    <p style="border-style: dotted;border-width: 2px;">border-style: dotted;border-width: 2px;</p>
+    <p style="border-style: dotted;border-width: thick;">border-style: dotted;border-width: thick;</p>
+    <h2>Border Color:</h2>
+    <p style="border:2px solid Tomato;">border:2px Tomato </p>
+    <p style="border:2px solid DodgerBlue;">border:2px solid DodgerBlue</p>
+    <p style="border:2px solid Violet;">border:2px solid Violet</p>
+    <br><hr>
+    <h2>Border Sides:</h2>
+    <p style="border-top-style: dotted;border-right-style: solid;border-bottom-style: dotted;border-left-style: solid;">
+        border-top-style: dotted;
+        border-right-style: solid;
+        border-bottom-style: dotted;
+        border-left-style: solid;</p>
+    <br><hr>
+    <h2>Rounded Borders using border-radius property:</h2>
+    <p style="border: 2px solid red;padding: 5px;">Normal border</p>
+    <p style="border: 2px solid red;border-radius: 5px;padding: 5px;">Round border</p>
+    <P style="border: 2px solid red;border-radius: 8px;padding: 5px;">Rounder border</P>
+    <P style="border: 2px solid red;border-radius: 12px;padding: 5px;">Roundest border</P>
+    <br><hr>
+    <h2>Margins:</h2>
+    <P style="border: 1px solid black;margin-top: 100px;margin-bottom: 100px;margin-right: 150px;margin-left: 80px;background-color: lightblue;">border: 1px solid black;margin-top: 100px;margin-bottom: 100px;margin-right: 150px;margin-left: 80px;background-color: lightblue;</P>
+    <br><hr>
+
+    <h1>FONT:</h1>
+    <h2>Font family:</h2>
+    <P style="font-family:Times New Roman;">font-family:Times New Roman;</P>
+    <P style="font-family:Times">font-famil:Times</P>
+    <P style="font-family:serif;">font-family:serif;</P>
+    <P style="font-family: Arial;">font-family: Arial;</P>
+    <P style="font-family: Helvetica;">font-family: Helvetica;</P>
+    <P style="font-family:sans-serif;">font-family:sans-serif;</P>
+    <P style="font-family:Lucida Console;">Lucida Console</P>
+    <P style="font-family:Courier New;">font-family:Courier New;</P>
+    <P style="font-family:monospace;">font-family:monospace;</P>
+    <br><hr>
+    <h2>Font style:</h2>
+    <p style="font-style: normal;">font-style: normal;</p>
+    <p style="font-style: italic;">font-style: italic;</p>
+    <p style="font-style: oblique;">font-style: oblique;</p>
+    <p style="font-style: bold;">font-style: bold;</p>
+    <hr><br>
+    <h2>Font size:</h2>
+    <p style="font-size: 40px;">font-size: 40px;</p>
+    <p style="font-size: 30px;">font-size: 30px;</p>
+    <p style="font-size: 10px;">font-size: 10px;</p>
+    <hr><br>
+
+</body>
+</html>
